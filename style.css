@@ -4,15 +4,18 @@
 	margin-top: 10vw;
 }
 
-.titre, .paragraphe, .carte-description {
+.paragraphe, .carte-description {
 	font-family: Libre Franklin;
+	font-size: 20px;
 	background-color: blue;
 	padding: 10px;
 	color: white;
 }
 
 
-.titre{
+.titre {
+	font-size: 30px;
+	font-family: Libre Franklin;
 	display: inline-block;
 	background-color: blue;
 	padding: 10px;
