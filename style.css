@@ -55,6 +55,7 @@
 
 .galerie{
 	display: inline;
-	float: right;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
