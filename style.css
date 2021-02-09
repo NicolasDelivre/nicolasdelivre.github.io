@@ -14,7 +14,7 @@
 
 .carte-description {
 	font-family: Libre Franklin;
-	font-size: 20px;
+	font-size: 10px;
 	background-color: #003366;
 	padding: 10px;
 	color: white;
@@ -22,7 +22,7 @@
 
 
 .titre {
-	font-size: 30px;
+	font-size: 40px;
 	font-family: Libre Franklin;
 	background-color: #3A020D;
 	display: inline-block;
@@ -32,6 +32,7 @@
 
 .paragraphe {
 	margin-top: 40px;
+	font-size: 15px;
 	padding: 10px;
 	color: white;
 	font-size: 15px;
