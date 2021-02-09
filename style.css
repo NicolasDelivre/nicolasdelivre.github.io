@@ -1,0 +1,51 @@
+.main{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 10vw;
+}
+
+.titre, .paragraphe, .carte-description {
+	font-family: Architects Daughter;
+	background-color: blue;
+	padding: 10px;
+	color: white;
+}
+
+
+.titre{
+	display: inline-block;
+	background-color: blue;
+	padding: 10px;
+	color: white;
+}
+
+.paragraphe {
+	margin-top: 40px;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	font-size: 15px;
+}
+
+
+.carte {
+	overflow: hidden;
+	margin-top: 3vw;
+}
+
+
+.carte, .carte-image, .carte-description {
+	width: 38vw;
+}
+
+.carte-image {
+	display: block;
+
+}
+
+.galerie{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
