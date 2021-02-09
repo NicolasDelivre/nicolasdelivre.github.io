@@ -7,8 +7,8 @@
 
 .carte-description {
 	font-family: Libre Franklin;
-	font-size: 10px;
-	background-color: #003366;
+	font-size: 15px;
+	background-color: #03224C;
 	padding: 10px;
 	color: white;
 }
@@ -32,7 +32,7 @@
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	padding: 10px;
-	font-weight: 300;
+	font-weight: 200;
 	color: white;
 }
 
