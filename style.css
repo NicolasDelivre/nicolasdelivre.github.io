@@ -4,13 +4,6 @@
 	margin-top: 10vw;
 }
 
-.paragraphe {
-	font-size: 20px;
-	font-family: Libre Franklin;
-	padding: 10px;
-	color: white;
-}
-
 
 .carte-description {
 	font-family: Libre Franklin;
@@ -32,10 +25,10 @@
 
 .paragraphe {
 	margin-top: 40px;
-	font-size: 15px;
+	font-family: Libre Franklin;
+	font-size: 20px;
 	padding: 10px;
 	color: white;
-	font-size: 15px;
 }
 
 
