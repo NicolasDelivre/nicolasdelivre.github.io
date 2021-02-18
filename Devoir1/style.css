@@ -1,0 +1,60 @@
+.main{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 10vw;
+}
+
+
+.carte-description {
+	font-family: Libre Franklin;
+	font-size: 15px;
+	background-color: #3A020D;
+	padding: 10px;
+	color: white;
+}
+
+
+.titre {
+	font-size: 40px;
+	font-family: Libre Franklin;
+	background-color: #3A020D;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+.paragraphe {
+	margin-top: 40px;
+	font-family: Libre Franklin;
+	font-size: 18px;
+	line-height: 1.1;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	padding: 10px;
+	font-weight: 150;
+	text-align: justify;
+	color: white;
+}
+
+
+.carte {
+	overflow: hidden;
+	margin-top: 3vw;
+}
+
+
+.carte, .carte-image, .carte-description {
+	width: 38vw;
+}
+
+.carte-image {
+	display: block;
+
+}
+
+.galerie{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
