@@ -1,16 +1,78 @@
 .main{
-	margin-left: 10vw;
-	margin-right: 10vw;
-	margin-top: 10vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+/*Caracteristiques communes*/
+.titreMain, .navbar a, .dropbutton, .introduction, .titreMembres, .description {
+    color: #00561B;
+    font-family: 'Quicksand', sans-serif;
+}
+.introduction, .description{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.titreMain {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+/*NAVIGATION BAR & DROPDOWN MENU*/
+.navbar {
+    overflow: hidden;
+
+}
+.navbar a { /* "Home" & "Contact" */
+    font-size: 20px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;   /*espacement entre les elements*/
+}
+.dropdown { /* "Portfolio" */
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbutton {
+    font-size: 20px;
+    background-color: #EDEDED;
+    border: none;
+    padding: 15px;    /*espacement avec les elements*/
+}
+.navbar a:hover, .dropdown:hover .dropbutton,.dropdown-content a:hover{
+    /* Souligne texte quand souris passe dessus */
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #00561B;
+    text-decoration-thickness: 1.2px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+.dropdown-content a {
+    float: none;
+    color: #00561B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+} 
+.dropdown:hover .dropdown-content {display: block;}
 
 .carte-description {
 	font-family: Libre Franklin;
 	font-size: 15px;
-	background-color:#2E4053;
+	background-color:#EDEDED;
+    opacity: 1;
 	padding: 10px;
-	color: white;
+	color: #00561B;
 }
 
 
@@ -25,36 +87,32 @@
 
 .paragraphe {
 	margin-top: 40px;
-	font-family: Libre Franklin;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 18px;
 	line-height: 1.1;
 	letter-spacing: 1px;
 	word-spacing: 2px;
-	padding: 10px;
-	font-weight: 150;
 	text-align: justify;
-	color: #1C2833;
+	color: #00561B;
 }
-
 
 .carte {
-	overflow: hidden;
-	margin-top: 3vw;
+    overflow: hidden;
+    margin-top: 3vw;
 }
 
-
 .carte, .carte-image, .carte-description {
-	width: 38vw;
+    width: 24vw;
 }
 
 .carte-image {
-	display: block;
-
+    display: block;
 }
 
-.galerie{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3vw;
 }
